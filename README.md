@@ -1,3 +1,3 @@
-## Gitlearn repo
+# Gitlearn repo
 
-# This is a file to assist me to learn how to navigate github
+### This is a file to assist me to learn how to navigate github
