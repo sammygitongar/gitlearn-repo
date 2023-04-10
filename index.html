@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Demo</title>
+</head>
+<body>
+    <h1>Git demo</h1><br>
+    <p>For purposes of learning git</p>
+    <div class="button">
+        <button>
+            Click to see something awesome
+        </button>
+    </div>
+
+    <div class="buttons">
+        <div class="buttonsRow1">
+            <button>Funny</button>
+            <button>Happy</button>
+            <button>Sassy</button>
+        </div>
+        <div class="buttonsRow2">
+            <button>Grumpy</button>
+            <button>Worry</button>
+            <button>Cheesy</button>
+        </div>
+    </div>
+
+    <style>
+        body {
+            background-color: antiquewhite;
+            background: url("imaes/treebg-removebg-preview.png");
+            background-repeat: no-repeat;
+            background-position: top right;
+            color: rgb(11, 75, 14);
+        }
+        h1, p{
+            text-align: center;
+        }
+
+        .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 50px 30px;
+            
+        }
+        .button button{
+            padding: 15px 20px;
+            border-radius: 50px;
+            background-color: rgb(207, 185, 169);
+            border: none;
+            cursor: pointer;
+            color: rgb(11, 75, 14);
+            font-size: 15px;
+            font-weight: 550; 
+        }
+        .button button:hover{
+            background-color: rgb(11, 75, 14);
+            color: white;
+            transition: 0.5s;
+            box-shadow: 0 8px 12px 0 rgba(11, 75, 14, 0.6), 0 8px 12px rgba(11, 75, 14, 0.6);
+        }
+
+        .buttons{
+            display: block;
+            padding: 15px 20px;
+            transform: translate(20%, 20%);
+          
+;
+        }
+
+        .buttons .buttonsRow1 button{
+            padding: 20px 30px;
+            border: none;
+            color: rgb(11, 75, 14);
+            font-size: 18px;
+            background-color: rgb(207, 185, 169);
+
+        }
+        .buttons .buttonsRow2 button{
+            padding: 20px 27.3px;
+            border: none;
+            color: rgb(11, 75, 14);
+            float: inline-start;
+            font-size: 18px;
+            background-color: rgb(207, 185, 169);
+
+        }
+        .buttons .buttonsRow1 button:hover{
+            background-color: rgb(11, 75, 14);
+            color: white;
+            transition: 0.5s;
+        }
+        .buttons .buttonsRow2 button:hover{
+            background-color: rgb(11, 75, 14);
+            color: white;
+            transition: 0.5s;
+        }
+
+    </style>
+
+    
+</body>
+</html>
